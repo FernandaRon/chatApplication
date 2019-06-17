@@ -1,0 +1,25 @@
+{
+  "name": "chatapplication",
+  "version": "1.0.0",
+  "description": "simple app chat",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FernandaRon/chatApplication.git"
+  },
+  "author": "Fernanda Rondon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FernandaRon/chatApplication/issues"
+  },
+  "homepage": "https://github.com/FernandaRon/chatApplication#readme",
+  "dependencies": {
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
